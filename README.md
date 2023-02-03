@@ -18,7 +18,6 @@ To reach the goal, I created a guide on how and what to write in order to increa
 <br/>
 
 ## Link tags: <a name="link-tags">
-<br/>
 
 ### Stylesheet
 
