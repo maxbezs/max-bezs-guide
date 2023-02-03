@@ -16,7 +16,7 @@ To reach the goal, I created a guide on how and what to write in order to increa
 * [Link tags](#link-tags)
  
 
-## Link tags: <a name="link-tags">
+## Link tags: <a name="link-tags"></a>
 
 ### Stylesheet
 
@@ -46,13 +46,9 @@ Where {link} is the link to the image
 Where {link} is the link to the image
 
 [More](https://www.w3schools.com/html/html_favicon.asp "link")
-
-
-
- 
  
 
-## Meta tags:
+## Meta tags: <a name="link-tags"></a>
 
 Every website must include `<meta>` tags
 
