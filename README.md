@@ -9,12 +9,9 @@ __The main goal is to create understandable, flexible and fast website/ web-app 
 
 To reach the goal, I created a guide on how and what to write in order to increase the speed and efficiency of both work and product.
 
- 
- 
-
 ## Structure
 * [Link tags](#link-tags)
- 
+* [Meta tags](#link-tags)
 
 ## Link tags: <a name="link-tags"></a>
 
