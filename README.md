@@ -11,9 +11,11 @@ To reach the goal, I created a guide on how and what to write in order to increa
 
 ## Structure
 * [Link tags](#link-tags)
-* [Meta tags](#link-tags)
+* [Meta tags](#meta-tags)
 
-## Link tags: <a name="link-tags"></a>
+## Link tags: 
+
+<a name="link-tags"></a>
 
 ### Stylesheet
 
@@ -33,8 +35,6 @@ Where {link} is the link to the image
 
 [More](https://webhint.io/docs/user-guide/hints/hint-apple-touch-icons/ "link")
 
-  
-
 ### Icon
 
 ```html
@@ -45,7 +45,9 @@ Where {link} is the link to the image
 [More](https://www.w3schools.com/html/html_favicon.asp "link")
  
 
-## Meta tags: <a name="link-tags"></a>
+## Meta tags: 
+
+<a name="meta-tags"></a>
 
 Every website must include `<meta>` tags
 
