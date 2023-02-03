@@ -9,13 +9,12 @@ __The main goal is to create understandable, flexible and fast website/ web-app 
 
 To reach the goal, I created a guide on how and what to write in order to increase the speed and efficiency of both work and product.
 
-<br/>
-<br/>
+ 
+ 
 
 ## Structure
 * [Link tags](#link-tags)
-<br/>
-<br/>
+ 
 
 ## Link tags: <a name="link-tags">
 
@@ -26,7 +25,7 @@ To reach the goal, I created a guide on how and what to write in order to increa
 ```
 [More](https://www.dofactory.com/html/rel/stylesheet "link")
 
-<br/>
+ 
 
 ### Apple Touch Icon
 
@@ -37,7 +36,7 @@ Where {link} is the link to the image
 
 [More](https://webhint.io/docs/user-guide/hints/hint-apple-touch-icons/ "link")
 
-<br/> 
+  
 
 ### Icon
 
@@ -50,8 +49,8 @@ Where {link} is the link to the image
 
 
 
-<br/>
-<br/>
+ 
+ 
 
 ## Meta tags:
 
@@ -64,7 +63,7 @@ Every website must include `<meta>` tags
 ````
 [More](https://www.w3schools.com/html/html_charset.asp "meta tag link")
 
-<br/> 
+  
 
 ### Author
 
@@ -73,7 +72,7 @@ Every website must include `<meta>` tags
 ````
 [More](https://www.w3schools.com/tags/att_meta_name.asp "meta tag link")
 
-<br/> 
+  
 
 ### Viewport
 
@@ -82,7 +81,7 @@ Every website must include `<meta>` tags
 ```
 [More](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag "meta tag link")
 
-<br/> 
+  
 
 ### Theme color
 
@@ -91,7 +90,7 @@ Every website must include `<meta>` tags
 ```
 [More](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color "meta tag link")
 
-<br/> 
+  
 
 ### Cache control
 
@@ -100,7 +99,7 @@ Every website must include `<meta>` tags
 ```
 [More](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control "meta tag link")
 
-<br/> 
+  
 
 ### Description
 
@@ -109,7 +108,7 @@ Every website must include `<meta>` tags
 ```
 [More](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag "meta tag link") , [More (Google)](https://developers.google.com/search/docs/crawling-indexing/special-tags "meta tag link")
 
-<br/> 
+  
 
 ### Final code
 
