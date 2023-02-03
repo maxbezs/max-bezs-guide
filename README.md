@@ -19,6 +19,7 @@ Every website must include `<meta>` tags
     <meta charset="utf-8">
 ````
 [More](https://www.w3schools.com/html/html_charset.asp "meta tag link")
+
 - - - - 
 
 ### Author
@@ -36,13 +37,16 @@ Every website must include `<meta>` tags
     <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 [More](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag "meta tag link")
+
 - - - - 
+
 ### Theme color
 
 ```html
     <meta name="theme-color" content="#000000">
 ```
 [More](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color "meta tag link")
+
 - - - - 
 
 ### Cache control
@@ -51,7 +55,9 @@ Every website must include `<meta>` tags
     <meta http-equiv="Cache-control" content="public">
 ```
 [More](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control "meta tag link")
+
 - - - - 
+
 ### Description
 
 ```html
