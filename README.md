@@ -1,6 +1,6 @@
 
 # Guide for creating a good website
-
+list of images but not background big one
 ## Result:
 
 ![picture alt](https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/matrics.webp "all 4 Google matrics 100")
@@ -9,9 +9,32 @@ __The main goal is to create understandable, flexible and fast website/ web-app 
 
 To reach the goal, I created a guide on how and what to write in order to increase the speed and efficiency of both work and product.
 
-## Structure
+## Guide Structure:
 * [Link tags](#link-tags)
 * [Meta tags](#meta-tags)
+
+## Files Structure and names:
+
+```bash
+├── app
+│   ├── css
+│   │   ├── **/*.css
+│   ├── favicon.ico
+│   ├── images
+│   ├── index.html
+│   ├── js
+│   │   ├── **/*.js
+│   └── partials/template
+├── dist (or build)
+├── node_modules
+├── bower_components (if using bower)
+├── test
+├── Gruntfile.js/gulpfile.js
+├── README.md
+├── package.json
+├── bower.json (if using bower)
+└── .gitignore
+```
 
 ## Link tags: 
 
@@ -23,8 +46,6 @@ To reach the goal, I created a guide on how and what to write in order to increa
     <link rel="stylesheet" href="css/index.css">
 ```
 [More](https://www.dofactory.com/html/rel/stylesheet "link")
-
- 
 
 ### Apple Touch Icon
 
@@ -44,6 +65,18 @@ Where {link} is the link to the image
 
 [More](https://www.w3schools.com/html/html_favicon.asp "link")
  
+ ### Preconnect Fonts
+
+ ```html
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="{link}">
+```
+Where {link} is the link to the font
+
+We prefer to [Google Fonts](https://fonts.google.com/ "Google Fonts"), but when a client wants to have a personal font not available on the web, we use Github and CSS to host and provide the font files. More info about it in [CSS part](#css).
+
+[More](https://web.dev/font-best-practices/ "link")
 
 ## Meta tags: 
 
@@ -117,3 +150,5 @@ Every website must include `<meta>` tags
 ```
 
 These `<meta>` should be on every page's `<head></head>`. After that, the Lead Developer will approve or correct them at the end and the page will be ready for publication.🥳
+
+<a name="css"></a>
