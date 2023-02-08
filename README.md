@@ -21,7 +21,7 @@ To reach the goal, I created a guide on how and what to write in order to increa
 
 The manifest is used solely to get the PWA mark, which is an important part for a web application, but for a typical website it is just an additional, auxiliary feature. But still it has to be in every website created by you.
 
-The general structure of the manifest should look like this:
+The general structure of the `manifest.json` should look like this:
 ```json
 {
   "short_name": "max_bezs",
@@ -49,6 +49,8 @@ The general structure of the manifest should look like this:
 ```
 Where `{link-webp}` is the link to the .webp icon of the website or company and `{link-png}` is the link to the .png icon of the website or company. 
 
+[More](https://developer.mozilla.org/en-US/docs/Web/Manifest "link")
+
 ## Files Structure and names:
 
 ```bash
@@ -56,15 +58,6 @@ Where `{link-webp}` is the link to the .webp icon of the website or company and 
 │   └── **/*.css
 ├── js
 │   └── **/*.js
-├── app
-│   ├── css
-│   │   ├── **/*.css
-│   ├── favicon.ico
-│   ├── images
-│   ├── index.html
-│   ├── js
-│   │   ├── **/*.js
-│   └── partials/template
 ├── serviceWorker.js
 ├── index.html
 └── manifest.json
