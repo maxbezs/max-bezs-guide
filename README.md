@@ -52,6 +52,10 @@ Where `{link-webp}` is the link to the .webp icon of the website or company and 
 ## Files Structure and names:
 
 ```bash
+├── css
+│   └── **/*.css
+├── js
+│   └── **/*.js
 ├── app
 │   ├── css
 │   │   ├── **/*.css
@@ -61,15 +65,8 @@ Where `{link-webp}` is the link to the .webp icon of the website or company and 
 │   ├── js
 │   │   ├── **/*.js
 │   └── partials/template
-├── dist (or build)
-├── node_modules
-├── bower_components (if using bower)
-├── test
-├── Gruntfile.js/gulpfile.js
-├── README.md
-├── package.json
-├── bower.json (if using bower)
-├── .gitignore
+├── serviceWorker.js
+├── index.html
 └── manifest.json
 ```
 
