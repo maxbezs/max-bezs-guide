@@ -14,7 +14,7 @@ To reach the goal, I created a guide on how and what to write in order to increa
 * [Files](#js)
 * [JS](#js)
 * [CSS](#css)
-* [HTML](#html)
+* [HTML](HTML.md)
 <a name="manifest"></a>
 
 ## Service Worker
