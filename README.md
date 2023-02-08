@@ -15,29 +15,6 @@ To reach the goal, I created a guide on how and what to write in order to increa
 * [JS](#js)
 * [CSS](#css)
 * [HTML](#html)
-    * [Head](#head)
-        * [Title](#title)
-        * [Link tags](#link-tags)
-        * [Meta tags](#meta-tags)
-    * [Body](#body)
-        * [Header](#header)
-        * [Footer](#footer)
-        * [a](#a)
-        * [nav](#nav) 
-        * [img](#img)
-        * [button](#button)
-        * [div](#div)
-        * [video](#video)
-        * [p](#p)
-        * [hr](#hr)
-        * [Headers](#headers)
-            * [h1](#h1)
-            * [h2](#h2)
-            * [h3](#h3)
-            * [h4](#h4)
-            * [h5](#h5)
-        * [Script](#script)
-
 <a name="manifest"></a>
 
 ## Service Worker
@@ -153,6 +130,7 @@ Final code for `<head>` loojs like this:
 Link to preconnect fonts has to be at the top for better performance.
 
 <a name="title"></a>
+
 ## Title:
 
 ```html
