@@ -2,10 +2,7 @@
 
 ## Guide Structure:
 * [HTML](#html)
-    * [Head](#head)
-        * [Title](#title)
-        * [Link tags](#link-tags)
-        * [Meta tags](#meta-tags)
+    * [Head](head.md)
     * [Body](#body)
         * [Header](#header)
         * [Footer](#footer)
@@ -24,3 +21,4 @@
             * [h4](#h4)
             * [h5](#h5)
         * [Script](#script)
+
