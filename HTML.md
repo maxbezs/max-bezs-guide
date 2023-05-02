@@ -4,7 +4,13 @@
 * [HTML](#html)
     * [Head](head.md)
     * [Body](#body)
-        * [Header](#header)
+        * <details>
+            <summary>Semantic elements</summary>
+            <ul>
+               <li> markdown list 1</li>
+               <li> markdown list 2</li>
+            </ul>
+          </details>
         * [Footer](#footer)
         * [a](#a)
         * [nav](#nav) 
