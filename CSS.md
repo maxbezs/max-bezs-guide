@@ -1,5 +1,40 @@
 # CSS
 
+The primary objectives of a project are to ensure optimal performance and deliver a high-quality product that satisfies the customer. One crucial aspect of achieving these goals is the organization and management of stylesheets. In this guide, we will discuss the logic and structure behind stylesheets in projects, with a focus on reducing file quantity and enhancing page load speed.
+
+## Strategy Overview
+
+To achieve our main goals of optimizing performance and satisfying customers with a quality product, we need to focus on the logic and structure behind stylesheets in projects. Our strategy aims to reduce the number of file requests and improve page load speed. Here's a concise overview:
+
+1. **Identify Similar Elements**: Find elements that share common characteristics.
+
+2. **Understand Element Roles**: Evaluate the roles of these elements in the HTML structure.
+
+3. **Analyze Role Differences**: Identify any differences in style requirements for elements with similar roles.
+
+4. **Create a Blueprint File**: Develop a blueprint stylesheet that provides basic styling for semantic elements and emphasizes above-the-fold content.
+
+5. **Generate Page-Specific Stylesheets**: Create a main stylesheet for each page with specific, properly named, and well-structured custom classes. Load these stylesheets after the blueprint stylesheet.
+
+6. **Consider Component-Specific Stylesheets**: Optionally, create separate components and stylesheets for elements that repeat or have slightly different styles.
+
+7. **Performance Considerations**: For projects with few pages and elements, using a single stylesheet may be suitable, but always prioritize performance.
+
+By implementing this strategy, we can minimize file requests, enhance page load speed, and ensure a satisfying user experience.
+
+The stylesheets structure will looks like that:
+
+```bash
+├── css
+│   ├── blueprint.css
+│   ├── repeatcomponent.css
+│   ├── landingpage.css
+│   └──...
+```
+
+
+## Recomendations:
+
 1. **Use a CSS Reset**: different browsers may have varying default margins, padding, and other styles for semantic elements, employing a CSS Reset ensures consistent rendering across different platforms.
 
     ```css
