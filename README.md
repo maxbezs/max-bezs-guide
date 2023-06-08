@@ -13,7 +13,7 @@ To reach the goal, I created a guide on how and what to write in order to increa
 * [Code](#code)
 * [Files](#js)
 * [JS](#js)
-* [CSS](#css)
+* [CSS](CSS.md)
 * [HTML](HTML.md)
 <a name="manifest"></a>
 
@@ -103,8 +103,5 @@ Where `{link-webp}` is the link to the .webp icon of the website or company and 
 
 
 
-<a name="css"></a>
-
 <a name="body"></a>
-<a name="html"></a>
 <a name="js"></a>
