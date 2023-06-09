@@ -211,7 +211,7 @@ function calculateRectangleArea(length, width) {
    ```
    This sets a secure cookie, then reads and deletes it. Secure cookies are only sent over HTTPS, helping to protect the data they contain.
    
-If you are old here is translated version/showcases for JQuery:
+Here is translated version/showcases for JQueryif you are oldschool developer:
   * [JQuery](JQuery.md)
 
 ## Service Worker
