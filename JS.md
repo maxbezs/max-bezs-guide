@@ -1,4 +1,4 @@
-<a name="manifest"></a>
+# JavaScript
 
 ## Service Worker
 
