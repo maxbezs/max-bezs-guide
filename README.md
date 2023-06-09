@@ -13,6 +13,7 @@ To reach the goal, I created a guide on how and what to write in order to increa
 * [Code](#code)
 * [Files](#js)
 * [JS](JS.md)
+  * [JQuery](JQuery.md)
 * [CSS](CSS.md)
 * [HTML](HTML.md)
 
