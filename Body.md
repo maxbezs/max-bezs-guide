@@ -1,5 +1,7 @@
 # Body
 
+The body of your webpage can contain several semantic elements which add meaning to the structure and content of your webpage. These elements are used by search engines to better understand the content on your webpage and provide a better user experience.
+
 ## Semantic elements
 
 <a name="navigation"></a>
