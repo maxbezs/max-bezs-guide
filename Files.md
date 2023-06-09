@@ -3,7 +3,9 @@
 
 ```
 │
+├── serviceWorker.js
 ├── index.html
+├── manifest.json
 ├── styles/
 │   ├── main.css
 │   ├── ...
@@ -36,15 +38,3 @@
 9. **Code Formatting**: Use a code formatter like Prettier to automatically format your code. This can help ensure that your code is consistently formatted and easy to read.
 
 10. **Linting**: Use a linter like ESLint to catch common mistakes and enforce a consistent coding style. This can help prevent bugs and improve the readability of your code.
-
-## Files Structure and names:
-
-```bash
-├── css
-│   └── **/*.css
-├── js
-│   └── **/*.js
-├── serviceWorker.js
-├── index.html
-└── manifest.json
-```
