@@ -1,6 +1,6 @@
 # Body
 
-The body of your webpage can contain several semantic elements which add meaning to the structure and content of your webpage. These elements are used by search engines to better understand the content on your webpage and provide a better user experience.
+The body of your webpage can contain several semantic elements which add meaning to the structure and content of your webpage. These elements are used by search engines to better understand the content on your webpage and provide a better user experience. This guide will tell you which elements to use in the code.  Those elements that are not listed are not recommended to be used to create web pages.
 
 ## Semantic elements
 
