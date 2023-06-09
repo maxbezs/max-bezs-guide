@@ -137,9 +137,6 @@ function calculateRectangleArea(length, width) {
 }
 ```
 
-Remember, these are just examples to illustrate the guidelines. Adapt them to your specific project needs and coding style.
-
-
 ## Service Worker
 
 The service worker is used solely to get the PWA mark, which is an important part for a web application, but for a typical website it is just an additional, auxiliary feature. But still it has to be in every website created by you.
