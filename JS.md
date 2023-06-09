@@ -1,5 +1,7 @@
 # JavaScript
 
+I would not say that there are any clear rules for writing JS code in our case, but it is extremely important to take performance and loading speed into account.  Mainly to focus on code optimization and readability for other programmers, but here are some recommendations for you:
+
 1. **Plan and organize your code structure before starting:**
 
 ```javascript
