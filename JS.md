@@ -1,7 +1,5 @@
 # JavaScript
 
-Certainly! Here are some code examples to illustrate the guidelines:
-
 1. **Plan and organize your code structure before starting:**
 
 ```javascript
