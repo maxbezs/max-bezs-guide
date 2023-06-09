@@ -11,19 +11,7 @@ To reach the goal, I created a guide on how and what to write in order to increa
 
 ## Guide Structure:
 * [Code](#code)
-* [Files](#js)
+* [Files](Files.md)
 * [JS](JS.md)
 * [CSS](CSS.md)
 * [HTML](HTML.md)
-
-## Files Structure and names:
-
-```bash
-├── css
-│   └── **/*.css
-├── js
-│   └── **/*.js
-├── serviceWorker.js
-├── index.html
-└── manifest.json
-```
