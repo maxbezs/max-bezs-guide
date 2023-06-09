@@ -1,4 +1,4 @@
-# Guide for creating a good HTML
+# HTML
 
 ## Guide Structure:
 
@@ -43,6 +43,9 @@
             </ul>
          </details>
       * [Script](#script)
+
+<a name="body"></a>
+## Body
 
 <a name="navigation"></a>
 
