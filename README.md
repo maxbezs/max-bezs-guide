@@ -12,7 +12,7 @@ To reach the goal, I created a guide on how and what to write in order to increa
 ## Guide Structure:
 * [Code](#code)
 * [Files](#js)
-* [JS](#js)
+* [JS](JS.md)
 * [CSS](CSS.md)
 * [HTML](HTML.md)
 <a name="manifest"></a>
