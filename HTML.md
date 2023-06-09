@@ -8,7 +8,7 @@
       *  <details>
             <summary>Semantic elements</summary>
             <ul>
-               <li><a href="#navigation">nav</a> </li>
+               <li><a href="Body.md#navigation">nav</a> </li>
                <li><a href="#header">header</a></li>
                <li><a href="#form">form</a></li>
                <li><a href="#footer">footer</a></li>
