@@ -139,6 +139,78 @@ function calculateRectangleArea(length, width) {
 }
 ```
 
+## Best practice:
+
+1. **Use Client-Side Validation, but Don't Rely on It Alone**
+
+   Use JavaScript for form validation to provide immediate feedback, but remember it's not secure and can be easily bypassed. Always validate data on the server side as well.
+
+   Example:
+   ```javascript
+   function validateForm() {
+       var x = document.forms["myForm"]["fname"].value;
+       if (x == "") {
+           alert("Name must be filled out");
+           return false;
+       }
+   }
+   ```
+   This client-side validation prevents an empty form submission, but server-side validation should also check this.
+
+2. **Fetch Data Asynchronously**
+
+   Fetch data with AJAX or Fetch API to improve user experience by reducing page reloads. Always handle errors appropriately to ensure a graceful failure if the server can't be reached.
+
+   Example:
+   ```javascript
+   fetch('https://api.example.com/data')
+       .then(response => response.json())
+       .then(data => console.log(data))
+       .catch((error) => {
+          console.error('Error:', error);
+       });
+   ```
+   This fetch request retrieves data from a server and logs it to the console. The catch block handles any errors that might occur during the request.
+
+3. **Manipulate the DOM Intelligently**
+
+   Use JavaScript to make pages dynamic, but avoid unnecessary DOM manipulation as it can be performance-intensive. Always target specific elements rather than using broad selectors.
+
+   Example:
+   ```javascript
+   document.getElementById("myId").style.color = "red";
+   ```
+   This changes the color of a specific element to red. Targeting the element by id is more efficient than using a broader selector like `document.getElementsByTagName("p")`.
+
+4. **Use Event Listeners Responsibly**
+
+   Use event listeners to handle user interactions, but remember that too many can slow down a page. Always remove event listeners when they're no longer needed to prevent memory leaks.
+
+   Example:
+   ```javascript
+   document.getElementById("myBtn").addEventListener("click", function(){
+       alert("Hello World!");
+   });
+   ```
+   This creates an event listener that triggers an alert when a specific button is clicked. If this listener is no longer needed (for example, if the button is removed from the page), it should be removed with `removeEventListener`.
+
+5. **Handle Cookies with Care**
+
+   Use cookies to store small amounts of data, but be aware of privacy considerations. Always set a reasonable expiry date, and consider using secure and HttpOnly flags for sensitive data.
+
+   Example:
+   ```javascript
+   // Setting a secure cookie
+   document.cookie = "username=John Doe; Secure";
+
+   // Reading a cookie
+   var x = document.cookie;
+
+   // Deleting a cookie
+   document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+   ```
+   This sets a secure cookie, then reads and deletes it. Secure cookies are only sent over HTTPS, helping to protect the data they contain.
+
 ## Service Worker
 
 The service worker is used solely to get the PWA mark, which is an important part for a web application, but for a typical website it is just an additional, auxiliary feature. But still it has to be in every website created by you.
