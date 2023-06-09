@@ -1,6 +1,6 @@
 # JavaScript
 
-I would not say that there are any clear rules for writing JS code in our case, but it is extremely important to take performance and loading speed into account.  Mainly to focus on code optimization and readability for other programmers, but here are some recommendations for you:
+There aren't any definitive rules for writing JavaScript code, but it is crucial to prioritize performance and loading speed. The primary emphasis should be on optimizing the code and ensuring readability for other programmers. Here are a few recommendations to consider:
 
 1. **Plan and organize your code structure before starting:**
 
