@@ -210,6 +210,9 @@ function calculateRectangleArea(length, width) {
    document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
    ```
    This sets a secure cookie, then reads and deletes it. Secure cookies are only sent over HTTPS, helping to protect the data they contain.
+   
+If you are old here is translated version/showcases for JQuery:
+  * [JQuery](JQuery.md)
 
 ## Service Worker
 
