@@ -2,21 +2,21 @@
 1. **Directory Structure**: Organize your files in a directory structure that makes sense for your project. A common pattern is to separate files by their function. For example, you might have separate directories for stylesheets (CSS), scripts (JavaScript), images, and HTML files. For larger projects, you might also have directories for components or modules, tests, utilities, and third-party libraries. Here's a simple example:
 
 ```
-/
-|- index.html
-|- styles/
-|   |- main.css
-|   |- ...
-|- scripts/
-|   |- main.js
-|   |- ...
-|- images/
-|   |- logo.png
-|   |- ...
-|- components/
-|   |- header.html
-|   |- footer.html
-|   |- ...
+│
+├── index.html
+├── styles/
+│   ├── main.css
+│   ├── ...
+├── scripts/
+│   ├── main.js
+│   ├── ...
+├── images/
+│   ├── logo.png
+│   ├── ...
+├── components/
+│   ├── header.html
+│   ├── footer.html
+│   ├── ...
 ```
 
 2. **Naming Conventions**: Use consistent naming conventions for your files. This could be as simple as using lowercase letters with hyphens (e.g., `main-styles.css`), or more complex conventions like BEM (Block, Element, Modifier) for CSS. 
