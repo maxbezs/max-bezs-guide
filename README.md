@@ -1,6 +1,6 @@
 
 # Guide for creating a good website
-list of images but not background big one
+
 ## Result:
 
 ![picture alt](https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/matrics.webp "all 4 Google matrics 100")
