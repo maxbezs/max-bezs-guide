@@ -197,11 +197,100 @@ The general structure of the `<button>` should look like this:
 
 The `<div>` HTML element is the generic container for flow content. It has no effect on the content or layout until styled using CSS. Parent `<div>` should manage positioning of child elements inside it. Try to minimize amount of divs inside divs:
 
+When it comes to nesting HTML code using `<div>` elements, there are a few do's and don'ts to keep in mind to ensure proper structure and maintainability of your code. Here are some examples:
 
-The general structure of the `<div>` should look like this:
+Do's:
+1. Do use `<div>` elements to create logical sections or containers for your content.
 ```html
-   <div>This is a division element.</div>
+   <div>
+      <h1>Main Heading</h1>
+      <p>This is some text.</p>
+   </div>
 ```
+
+2. Do nest `<div>` elements to create hierarchical structures and sub-sections.
+```html
+   <div>
+      <h2>Section Heading</h2>
+      <div>
+         <p>This is a sub-section.</p>
+      </div>
+   </div>
+```
+
+3. Do use appropriate indentation to enhance code readability.
+```html
+   <div>
+      <h1>Main Heading</h1>
+      <div>
+         <h2>Section Heading</h2>
+         <div>
+            <p>This is a sub-section.</p>
+         </div>
+      </div>
+   </div>
+```
+
+Don'ts:
+
+1. Don't use `<div>` elements excessively for simple or semantically meaningful elements. Instead, use appropriate HTML elements.
+```html
+   <!-- Avoid -->
+   <div>
+      <div>
+         <div>
+            <p>Some text</p>
+         </div>
+      </div>
+   </div>
+
+   <!-- Prefer -->
+   <section>
+      <article>
+         <p>Some text</p>
+      </article>
+   </section>
+```
+
+2. Don't rely solely on `<div>` elements for layout purposes. Consider using CSS and appropriate HTML elements like `<header>`, `<nav>`, `<footer>`, etc.
+
+```html
+   <!-- Avoid -->
+   <div id="header">...</div>
+   <div id="nav">...</div>
+   <div id="content">...</div>
+   <div id="footer">...</div>
+
+   <!-- Prefer -->
+   <header>...</header>
+   <nav>...</nav>
+   <main>...</main>
+   <footer>...</footer>
+```
+
+3. Don't nest `<div>` elements too deeply without a valid reason. Excessive nesting can make your code harder to read and maintain.
+
+```html
+   <!-- Avoid -->
+   <div>
+      <div>
+         <div>
+            <div>
+            <p>Some text</p>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- Prefer -->
+   <div>
+      <div>
+         <p>Some text</p>
+      </div>
+   </div>
+```
+
+Remember, the goal is to create clean, maintainable, and semantically meaningful code. Strive for a balance between structure and readability when nesting `<div>` elements or any other HTML elements.
 
 [More](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div "link")
 
@@ -209,9 +298,10 @@ The general structure of the `<div>` should look like this:
 
 ### Thematic Break
 
-The `<hr>` HTML element represents a thematic break between paragraph-level elements. It is typically rendered as a horizontal rule.
+The `<hr>` HTML element represents a thematic break between paragraph-level elements. It is typically rendered as a horizontal rule. Use it as a decorative horizontal and vertical separator and don't use div to imitate the `<hr/>` properties.
 
-The general structure of the `<hr>` should look like this:
+The general use of the `<hr>` should look like this:
+
 ```html
    <p>This is the end of a paragraph.</p>
    <hr>
@@ -224,14 +314,15 @@ The general structure of the `<hr>` should look like this:
 
 ### Image
 
-The `<img>` HTML element embeds an image into the document. It is a replaced element.
+The `<img>` HTML element embeds an image into the document. It is a replaced element. Avoid using images as background for text: Using images as backgrounds for text can make the text inaccessible to screen readers. Instead, use CSS techniques to style text elements while keeping them accessible and searchable.
 
 The general structure of the `<img>` should look like this:
 ```html
    <img src="image.jpg" alt="Description of image">
 ```
 
-[More](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img "link")
+[More](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img "link"), 
+[More](https://web.dev/learn/design/picture-element/ "link"), 
 
 <a name="input"></a>
 
@@ -251,8 +342,7 @@ The general structure of the `<input>` should look like this:
 
 ### Label
 
-The `<label>` HTML element represents a caption for an item in a user interface.
-
+The `<label>` HTML element represents a caption for an item in a user interface. Use `<label>` only for input.
 The general structure of the `<label>` should look like this:
 ```html
    <label for="name">Name:</label>
@@ -267,7 +357,6 @@ The general structure of the `<label>` should look like this:
 The `<p>` HTML element represents a paragraph.
 
 The general structure of the `<p>` should look like this:
-```
 
 ```html
    <p>This is a paragraph.</p>
@@ -279,7 +368,7 @@ The general structure of the `<p>` should look like this:
 
 ### Table
 
-The `<table>` HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
+The `<table>` HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data. Do not use `<table>` element to create webpage instead use `<div>` with `"grid"` or `"flex"` display style.
 
 The general structure of the `<table>` should look like this:
 ```html
@@ -301,19 +390,25 @@ The general structure of the `<table>` should look like this:
 
 ### Unordered List and Ordered List
 
-The `<ul>` HTML element represents an unordered list of items, typically rendered as a bulleted list. The `<ol>` HTML element represents an ordered list of items — typically rendered as a numbered list.
+The `<ul>` HTML element represents an unordered list of items, typically rendered as a bulleted list. The `<ol>` HTML element represents an ordered list of items — typically rendered as a numbered list. You may use `<ul>` inside `<nav>` to structure the links and `<ol>` to show user navigation path for subpages
 
 The general structure of the `<ul>` and `<ol>` should look like this:
 ```html
-   <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-   </ul>
-
-   <ol>
-      <li>First item</li>
-      <li>Second item</li>
-   </ol>
+   <nav>
+      <ul>
+         <li><a href="/">Home</a></li>
+         <li><a href="/about">About</a></li>
+         <li>
+            <a href="/products">Products</a>
+            <ol>
+            <li><a href="/products/category1">Category 1</a></li>
+            <li><a href="/products/category2">Category 2</a></li>
+            <li><a href="/products/category3">Category 3</a></li>
+            </ol>
+         </li>
+         <li><a href="/contact">Contact</a></li>
+      </ul>
+   </nav>
 ```
 
 [More](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul "link")
@@ -323,11 +418,35 @@ The general structure of the `<ul>` and `<ol>` should look like this:
 
 ### Video
 
-The `<video>` HTML element embeds a media player which supports video playback into the document.
+The `<video>` element in HTML is used to embed a media player into a web page for playing videos. It provides a standardized way to display videos on different platforms and browsers. The `<video>` element supports various attributes and features that allow you to control the playback, appearance, and behavior of the video.
+
+Here is an overview of some important attributes and use cases for the `<video>` element:
+
+1. **src**: This attribute specifies the URL of the video file to be played. It can be a relative or absolute URL.
+
+2. **controls**: When the `controls` attribute is present, it adds default playback controls to the video player, such as play/pause, volume, and progress bar.
+
+3. **autoplay**: When the `autoplay` attribute is present, the video starts playing automatically as soon as the page loads.
+
+4. **loop**: The `loop` attribute enables continuous playback of the video. After reaching the end, it restarts from the beginning.
+
+5. **poster**: The `poster` attribute allows you to specify an image that is displayed as a placeholder before the video starts playing. It can be used to provide a preview or thumbnail image.
+
+6. **width** and **height**: These attributes set the width and height of the video player in pixels. You can specify them directly or use CSS to control the dimensions.
+
+7. **muted**: The `muted` attribute, when present, mutes the audio of the video. This is commonly used for videos that autoplay to avoid sudden sound playback.
+
+8. **preload**: The `preload` attribute determines whether the video should be preloaded when the page loads. It can have three values: `auto`, `metadata`, and `none`. `auto` indicates that the browser should preload the video, `metadata` means only the metadata should be loaded, and `none` means the video should not be preloaded.
+
+9. **source**: The `<source>` element is used as a child of the `<video>` element to specify alternative video sources. This is useful when you want to provide different video formats (e.g., MP4, WebM) to ensure compatibility across different browsers.
+
+10. **track**: The `<track>` element is used to add captions, subtitles, or other textual data to the video. It can specify the URL of a text file and the kind of text data it represents.
 
 The general structure of the `<video>` should look like this:
 ```html
-   <video src="movie.mp4" controls>
+   <video controls>
+      <source src="movie.webm" type="video/webm">
+      <source src="movie.mp4" type="video/mp4">
       Your browser does not support the video tag.
    </video>
 ```
@@ -340,7 +459,7 @@ The general structure of the `<video>` should look like this:
 
 ### H1
 
-The `<h1>` to `<h6>` HTML elements represent six levels of section headings. `<h1>` is the highest section level and `<h6>` is the lowest.
+The `<h1>` to `<h6>` HTML elements represent six levels of section headings. `<h1>` is the highest section level and `<h6>` is the lowest. Only one `<h1>` for each page.
 
 The general structure of the `<h1>` should look like this:
 ```html
