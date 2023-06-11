@@ -5,9 +5,9 @@
 
 ![picture alt](https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/matrics.webp "all 4 Google matrics 100")
 
-__The main goal is to create understandable, flexible and fast website/ web-app for clients to provide high value service and increase their market competitiveness.__
+__The main goal is to create understandable, flexible and fast website/ web-app for clients to provide optimal performance and deliver a high-quality product that satisfies the customer.__
 
-To reach the goal, I created a guide on how and what to write in order to increase the speed and efficiency of both work and product.
+I have formulated a comprehensive guide aimed at enhancing productivity and expediting work processes, resulting in improved outcomes. This guide provides detailed instructions on crafting effective written content to maximize efficiency.
 
 ## Guide Structure:
 
