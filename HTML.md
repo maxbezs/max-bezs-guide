@@ -3,7 +3,7 @@
 ## Guide Structure:
 
 * [HTML](#html)
-   * [Head](head.md)
+   * [Head](Head.md)
    * [Body](Body.md)
       *  <details>
             <summary>Semantic elements</summary>
@@ -42,4 +42,4 @@
                <li><a href="Body.md#h5">h5</a></li>
             </ul>
          </details>
-      * [Script](#script)
+      * [Script](Script.md)
