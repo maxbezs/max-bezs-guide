@@ -1,4 +1,4 @@
-## Head:
+# Head
 
 Every page has to have this code inside `<head>`:
 * [Title](#title)
